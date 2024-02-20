@@ -42,6 +42,8 @@ ul {
 
 .projects-container {
     background-color: purple;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .aside {
