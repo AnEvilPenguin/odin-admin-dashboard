@@ -12,11 +12,11 @@ ul {
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-rows: 1fr 5fr;
-    grid-template-columns: 1fr 4fr;
     grid-template-areas:
         "sidebar header"
         "sidebar content";
+    grid-template-rows: 1fr 5fr;
+    grid-template-columns: 1fr 4fr;
 }
 
 .header {
@@ -35,4 +35,15 @@ ul {
 .content {
     background-color: goldenrod;
     grid-area: content;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 1em;
+}
+
+.projects-container {
+    background-color: purple;
+}
+
+.aside {
+    background-color: peachpuff;
 }
