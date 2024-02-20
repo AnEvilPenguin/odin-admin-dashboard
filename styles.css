@@ -27,6 +27,9 @@ ul {
 .sidebar {
     background-color: blue;
     grid-area: sidebar;
+    display: grid;
+    grid-template-rows: 100px 300px 300px;
+    color: whitesmoke;
 }
 
 .content {
