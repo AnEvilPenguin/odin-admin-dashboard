@@ -3,6 +3,10 @@ body {
     padding: 0;
 }
 
+ul {
+    list-style: none;
+}
+
 .container {
     background-color: rosybrown;
     width: 100vw;
