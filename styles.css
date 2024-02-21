@@ -37,15 +37,25 @@ ul {
     grid-area: content;
     display: grid;
     grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+        "projects announcements"
+        "projects trending";
     padding: 1em;
 }
 
 .projects-container {
     background-color: purple;
+    grid-area: projects;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.aside {
+.announcements {
+    grid-area: announcements;
     background-color: peachpuff;
+}
+
+.trending {
+    grid-area: trending;
+    background-color: peru;
 }
