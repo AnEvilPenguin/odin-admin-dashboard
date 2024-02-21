@@ -52,10 +52,16 @@ ul {
 
 .announcements {
     grid-area: announcements;
+}
+
+.announcement-container {
     background-color: peachpuff;
 }
 
 .trending {
     grid-area: trending;
+}
+
+.trending-container {
     background-color: peru;
 }
