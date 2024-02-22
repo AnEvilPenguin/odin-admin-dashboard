@@ -7,6 +7,24 @@ ul {
     list-style: none;
 }
 
+button {
+    flex: 0 1 20%;
+    background-color: rgb(44, 112, 136);
+    color: white;
+    border: none;
+    border-radius: 1.25rem;
+    cursor: pointer;
+    box-shadow: 2px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    padding: 0.75rem 0px;
+}
+
+button:hover {
+    transform: translateY(-7px);
+    box-shadow: 2px 15px 20px rgba(44, 112, 136, 0.4);
+    background-color: rgb(56, 114, 175);
+}
+
 .container {
     background-color: rosybrown;
     width: 100vw;
@@ -40,6 +58,12 @@ ul {
     padding: 0.1rem 0.5rem;
 }
 
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .sidebar {
     background-color: blue;
     grid-area: sidebar;
@@ -64,13 +88,18 @@ ul {
     background-color: purple;
     grid-area: projects;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
     padding-left: 0px;
 }
 
 .project-card {
     background-color: lightblue;
+    font-weight: bold;
+}
+
+.project-card p {
+    font-weight: normal;
 }
 
 .announcements {
