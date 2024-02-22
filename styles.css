@@ -57,6 +57,7 @@ ul {
         "projects announcements"
         "projects trending";
     padding: 1em;
+    gap: 1rem;
 }
 
 .projects-container {
@@ -64,6 +65,12 @@ ul {
     grid-area: projects;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    padding-left: 0px;
+}
+
+.project-card {
+    background-color: lightblue;
 }
 
 .announcements {
@@ -72,6 +79,7 @@ ul {
 
 .announcement-container {
     background-color: peachpuff;
+    padding-left: 0px;
 }
 
 .trending {
@@ -80,4 +88,5 @@ ul {
 
 .trending-container {
     background-color: peru;
+    padding-left: 0px;
 }
