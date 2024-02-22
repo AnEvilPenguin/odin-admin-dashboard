@@ -22,6 +22,9 @@ ul {
 .header {
     background-color: yellow;
     grid-area: header;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 3fr 2fr;
 }
 
 .sidebar {
