@@ -81,6 +81,7 @@ button:hover {
         "projects announcements"
         "projects trending";
     padding: 1em;
+    padding-top: 2em;
     gap: 1rem;
 }
 
@@ -96,6 +97,8 @@ button:hover {
 .project-card {
     background-color: lightblue;
     font-weight: bold;
+    border-radius: 5px;
+    padding: 20px;
 }
 
 .project-card p {
