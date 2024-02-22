@@ -99,6 +99,8 @@ button:hover {
     font-weight: bold;
     border-radius: 5px;
     padding: 20px;
+    border: 0 solid red;
+    border-left-width: thick;
 }
 
 .project-card p {
