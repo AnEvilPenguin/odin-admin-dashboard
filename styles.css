@@ -27,6 +27,19 @@ ul {
     grid-template-columns: 3fr 2fr;
 }
 
+.search {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    align-items: center;
+}
+
+.search input {
+    height: 1.25rem;
+    width: 90%;
+    border-radius: 1.25rem;
+    padding: 0.1rem 0.5rem;
+}
+
 .sidebar {
     background-color: blue;
     grid-area: sidebar;
