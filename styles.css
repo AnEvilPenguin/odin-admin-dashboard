@@ -2,6 +2,7 @@
     --color-neutral-50: 250 250 250;
     --color-neutral-950: 10 10 10;
     --color-slate-300: 203 213 225;
+    --color-slate-600: 71, 85, 105;
     --color-sky-500: 56 189 248;
     --color-sky-600: 2 132 199;
     --color-sky-900: 12 74 110;
@@ -34,6 +35,10 @@ svg {
 
 path {
     fill: rgb(var(--color-neutral-50));
+}
+
+p {
+    color: rgb(var(--color-slate-600));
 }
 
 button {
