@@ -112,10 +112,25 @@ button:hover {
 }
 
 .branding svg {
-    height: 4vh;
+    height: 1.75rem;
 }
 
+.category {
+    padding-left: 4px;
+}
 
+.navigation-link {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-link svg {
+    height: 1.25rem;
+}
+
+.navigation-link p {
+    padding-left: 4px;
+}
 
 .content {
     background-color: rgb(var(--color-slate-300));
