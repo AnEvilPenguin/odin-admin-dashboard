@@ -16,6 +16,10 @@ body {
     color: rgb(var(--color-neutral-950));
 }
 
+input {
+    all: unset;
+}
+
 ul {
     list-style: none;
 }
@@ -65,6 +69,7 @@ button:hover {
 .search input {
     height: 1.25rem;
     width: 90%;
+    background-color: rgb(var(--color-slate-300));
     border-radius: 1.25rem;
     padding: 0.1rem 0.5rem;
 }
