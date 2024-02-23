@@ -102,7 +102,8 @@ button:hover {
 .user {
     font-weight: bold;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
 }
 
 .user svg {
@@ -111,6 +112,14 @@ button:hover {
 
 .user path {
     fill: rgb(var(--color-neutral-950));
+}
+
+.user img {
+    object-fit: cover;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    justify-self: center;
 }
 
 
