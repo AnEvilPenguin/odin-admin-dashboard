@@ -53,6 +53,8 @@ button:hover {
     background-color: rgb(var(--color-sky-500));
 }
 
+
+
 .container {
     width: 100vw;
     height: 100vh;
@@ -63,6 +65,8 @@ button:hover {
     grid-template-rows: 1fr 5fr;
     grid-template-columns: 1fr 4fr;
 }
+
+
 
 .header {
     grid-area: header;
@@ -91,6 +95,8 @@ button:hover {
     justify-content: space-around;
 }
 
+
+
 .sidebar {
     background-color: rgb(var(--color-sky-600));
     grid-area: sidebar;
@@ -110,6 +116,7 @@ button:hover {
 }
 
 
+
 .content {
     background-color: rgb(var(--color-slate-300));
     grid-area: content;
@@ -127,6 +134,7 @@ button:hover {
 .section-heading * {
     font-size: 1rem;
 }
+
 
 .projects-container {
     grid-area: projects;
@@ -149,11 +157,13 @@ button:hover {
     font-weight: normal;
 }
 
+
 .aside {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 
 .announcements {
     grid-area: announcements;
