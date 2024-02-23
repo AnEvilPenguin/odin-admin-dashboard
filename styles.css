@@ -99,6 +99,21 @@ button:hover {
     padding: 0.1rem 0.5rem;
 }
 
+.user {
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+}
+
+.user svg {
+    margin-left: auto;
+}
+
+.user path {
+    fill: rgb(var(--color-neutral-950));
+}
+
+
 .actions {
     display: flex;
     align-items: center;
