@@ -115,11 +115,38 @@ button:hover {
 }
 
 .user img {
-    object-fit: cover;
     height: 2.5rem;
     width: 2.5rem;
+}
+
+.avatar {
+    object-fit: cover;
     border-radius: 50%;
     justify-self: center;
+}
+
+
+.welcome {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 3fr;
+}
+
+.welcome img {
+    height: 5rem;
+    width: 5rem;
+    grid-area: 1 / 1 / 3 / 2;
+    align-self: center;
+}
+
+.welcome div:first-of-type {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.welcome div:nth-of-type(2) {
+    font-size: 1.75rem;
+    font-weight: bold;
+    align-self: flex-start;
 }
 
 
