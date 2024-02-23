@@ -13,6 +13,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(var(--color-neutral-50));
+    color: rgb(var(--color-neutral-950));
 }
 
 ul {
@@ -22,7 +23,7 @@ ul {
 button {
     flex: 0 1 20%;
     background-color: rgb(var(--color-sky-600));
-    color: white;
+    color: rgb(var(--color-neutral-50));
     border: none;
     border-radius: 1.25rem;
     cursor: pointer;
@@ -79,7 +80,7 @@ button:hover {
     grid-area: sidebar;
     display: flex;
     flex-direction: column;
-    color: whitesmoke;
+    color: rgb(var(--color-neutral-50));
 }
 
 .content {
