@@ -180,7 +180,7 @@ button:hover {
 }
 
 .branding svg {
-    padding: 8px;
+    padding: 0.5rem;
 }
 
 .navigation-link svg {
@@ -223,7 +223,7 @@ button:hover {
     background-color: rgb(var(--color-neutral-50));
     font-weight: bold;
     border-radius: var(--card-rounding);
-    padding: 20px;
+    padding: 2rem;
     border: 0 solid rgb(var(--color-yellow-600));
     border-left-width: thick;
 }
@@ -242,7 +242,7 @@ button:hover {
 }
 
 .card-actions svg {
-    padding: 8px;
+    padding: 0.5rem;
 }
 
 .card-actions svg:first-child {
@@ -293,7 +293,7 @@ button:hover {
 .divider {
     flex-grow: 1;
     border-bottom: 1px solid black;
-    margin: 5px;
+    margin: 0.5rem;
 }
 
 
