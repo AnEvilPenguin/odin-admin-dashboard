@@ -27,7 +27,6 @@ ul {
 }
 
 svg {
-    flex: 0 1 none;
     padding: 0.75rem;
 }
 
@@ -100,28 +99,26 @@ button:hover {
 .sidebar {
     background-color: rgb(var(--color-sky-600));
     grid-area: sidebar;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: minmax(100px, 1fr) repeat(auto-fill, minmax(50px, 1fr));
     color: rgb(var(--color-neutral-50));
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidebar > li {
+    display: grid;
+    grid-template-columns: minmax(50px, 1fr) 6fr;
+    align-items: center;
 }
 
 .branding {
-    display: flex;
-    align-items: center;
     font-size: 1.5rem;
 }
 
 .branding svg {
     height: 1.75rem;
-}
-
-.category {
-    padding-left: 4px;
-}
-
-.navigation-link {
-    display: flex;
-    align-items: center;
+    padding: 8px;
 }
 
 .navigation-link svg {
