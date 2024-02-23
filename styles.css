@@ -231,6 +231,7 @@ button:hover {
 
 .trending {
     grid-area: trending;
+    margin-bottom: auto;
 }
 
 .trending-container {
