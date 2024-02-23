@@ -10,6 +10,8 @@
     --color-yellow-600: 202 138 4;
 
     --card-rounding: 5px;
+
+    font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -119,12 +121,9 @@ button:hover {
     fill: rgb(var(--color-neutral-950));
 }
 
-.user img {
+.avatar {
     height: 2.5rem;
     width: 2.5rem;
-}
-
-.avatar {
     object-fit: cover;
     border-radius: 50%;
     justify-self: center;
@@ -167,7 +166,7 @@ button:hover {
     background-color: rgb(var(--color-sky-600));
     grid-area: sidebar;
     display: grid;
-    grid-template-rows: minmax(100px, 1fr) repeat(auto-fill, minmax(50px, 1fr));
+    grid-template-rows: minmax(100px, 1fr) repeat(auto-fill, minmax(40px, 1fr));
     color: rgb(var(--color-neutral-50));
     margin: 0px;
     padding: 0px;
@@ -304,7 +303,6 @@ button:hover {
 
 
 .trending {
-    grid-area: trending;
     margin-bottom: auto;
     margin-left: 1rem
 }
@@ -314,4 +312,25 @@ button:hover {
     background-color: rgb(var(--color-neutral-50));
     font-weight: normal;
     padding-left: 0px;
+    display: grid;
+}
+
+.trending-card {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.trending-card .avatar {
+    grid-area: 1 / 1 / 3 / 2;
+    align-self: center;
+}
+
+.trending-card div:first-of-type {
+    font-weight: bold;
+}
+
+.trending-card div:nth-of-type(2) {
+    color: rgb(var(--color-slate-600));
 }
