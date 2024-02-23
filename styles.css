@@ -28,6 +28,7 @@ ul {
 
 svg {
     padding: 0.75rem;
+    cursor: pointer;
 }
 
 path {
@@ -112,8 +113,9 @@ button:hover {
     align-items: center;
 }
 
-.branding {
+.branding a {
     font-size: 1.5rem;
+    color: rgb(var(--color-neutral-50));
 }
 
 .branding svg {
@@ -125,8 +127,9 @@ button:hover {
     height: 1.25rem;
 }
 
-.navigation-link p {
+.navigation-link a {
     padding-left: 4px;
+    color: rgb(var(--color-neutral-50));
 }
 
 .content {
@@ -163,6 +166,11 @@ button:hover {
     padding: 20px;
     border: 0 solid rgb(var(--color-yellow-600));
     border-left-width: thick;
+}
+
+.project-card a {
+    color: rgb(var(--color-neutral-950));
+    font-weight: bold;
 }
 
 .project-card p {
@@ -214,7 +222,8 @@ button:hover {
     margin: 0.5rem 1.5rem;
 }
 
-.announcement-card {
+.announcement-card a {
+    color: rgb(var(--color-neutral-950));
     font-weight: bold;
 }
 
