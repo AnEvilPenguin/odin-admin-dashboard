@@ -81,6 +81,15 @@ button:hover {
     gap: 1rem;
 }
 
+.section-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.section-heading * {
+    font-size: 1rem;
+}
+
 .projects-container {
     background-color: purple;
     grid-area: projects;
@@ -147,6 +156,7 @@ button:hover {
 }
 
 .trending-container {
+    font-weight: normal;
     background-color: peru;
     padding-left: 0px;
 }
