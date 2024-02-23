@@ -169,6 +169,24 @@ button:hover {
     font-weight: normal;
 }
 
+.card-actions {
+    display: flex;
+}
+
+.card-actions svg {
+    height: 1.75rem;
+    padding: 8px;
+}
+
+.card-actions svg:first-child {
+    margin-left: auto;
+}
+
+.card-actions path {
+    fill: rgb(var(--color-neutral-950));
+}
+
+
 
 .aside {
     display: flex;
