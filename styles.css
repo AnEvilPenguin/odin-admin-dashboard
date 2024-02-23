@@ -26,6 +26,15 @@ ul {
     list-style: none;
 }
 
+svg {
+    flex: 0 1 none;
+    padding: 0.75rem;
+}
+
+path {
+    fill: rgb(var(--color-neutral-50));
+}
+
 button {
     flex: 0 1 20%;
     background-color: rgb(var(--color-sky-600));
@@ -89,6 +98,17 @@ button:hover {
     flex-direction: column;
     color: rgb(var(--color-neutral-50));
 }
+
+.branding {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.branding svg {
+    height: 4vh;
+}
+
 
 .content {
     background-color: rgb(var(--color-slate-300));
